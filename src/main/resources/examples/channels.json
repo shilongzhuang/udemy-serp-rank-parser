@@ -1,0 +1,89 @@
+// https://www.udemy.com/api-2.0/channels/1626/hierarchy-channels?format=json
+{
+  "results": [
+    {
+      "_class": "category_channel",
+      "id": 1626,
+      "title": "Design",
+      "url_title": "/courses/design/",
+      "icon_class": "udi udi-design"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1654,
+      "title": "Web Design",
+      "url_title": "/courses/design/web-design/",
+      "icon_class": "udi udi-web-design"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1746,
+      "title": "Graphic Design",
+      "url_title": "/courses/design/graphic-design/",
+      "icon_class": "udi udi-graphic-design"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1748,
+      "title": "Design Tools",
+      "url_title": "/courses/design/design-tools/",
+      "icon_class": "udi udi-design-tools"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1750,
+      "title": "User Experience",
+      "url_title": "/courses/design/user-experience/",
+      "icon_class": "udi udi-user-experience"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1752,
+      "title": "Game Design",
+      "url_title": "/courses/design/game-design/",
+      "icon_class": "udi udi-game-design"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1754,
+      "title": "Design Thinking",
+      "url_title": "/courses/design/design-thinking/",
+      "icon_class": "udi udi-design-thinking"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1756,
+      "title": "3D & Animation",
+      "url_title": "/courses/design/3d-and-animation/",
+      "icon_class": "udi udi-3d-and-animation"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1758,
+      "title": "Fashion",
+      "url_title": "/courses/design/fashion/",
+      "icon_class": "udi udi-fashion"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1760,
+      "title": "Architectural Design",
+      "url_title": "/courses/design/architectural-design/",
+      "icon_class": "udi udi-architectural-design"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1762,
+      "title": "Interior Design",
+      "url_title": "/courses/design/interior-design/",
+      "icon_class": "udi udi-interior-design"
+    },
+    {
+      "_class": "subcategory_channel",
+      "id": 1764,
+      "title": "Other",
+      "url_title": "/courses/design/other/",
+      "icon_class": "udi udi-design"
+    }
+  ]
+}

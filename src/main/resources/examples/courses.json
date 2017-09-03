@@ -1,0 +1,1091 @@
+{
+  "count": 2619,
+  "next": "https://www.udemy.com/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=2",
+  "previous": null,
+  "sort_options": {
+    "current_sort_option": {
+      "key": "popularity",
+      "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity",
+      "label": "Popularity"
+    },
+    "options": [
+      {
+        "key": "highest-rated",
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=highest-rated",
+        "label": "Highest Rated"
+      },
+      {
+        "key": "newest",
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=newest",
+        "label": "Newest"
+      },
+      {
+        "key": "price-low-to-high",
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=price-low-to-high",
+        "label": "Price: Low to High"
+      },
+      {
+        "key": "price-high-to-low",
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=price-high-to-low",
+        "label": "Price: High to Low"
+      }
+    ]
+  },
+  "aggregations": [
+    {
+      "open": true,
+      "key": "instructional_level",
+      "title": "Level",
+      "options": [
+        {
+          "count": 1339,
+          "value": "all",
+          "key": "instructionalLevel",
+          "title": "All Levels",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&instructionalLevel=all"
+        },
+        {
+          "count": 936,
+          "value": "beginner",
+          "key": "instructionalLevel",
+          "title": "Beginner",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&instructionalLevel=beginner"
+        },
+        {
+          "count": 308,
+          "value": "intermediate",
+          "key": "instructionalLevel",
+          "title": "Intermediate",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&instructionalLevel=intermediate"
+        },
+        {
+          "count": 36,
+          "value": "expert",
+          "key": "instructionalLevel",
+          "title": "Expert",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&instructionalLevel=expert"
+        }
+      ]
+    },
+    {
+      "open": true,
+      "key": "language",
+      "title": "Language",
+      "options": [
+        {
+          "value": "en",
+          "count": 2619,
+          "key": "lang",
+          "title": "English",
+          "selected": true,
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&sort=popularity&lr=1"
+        },
+        {
+          "count": 411,
+          "value": "es",
+          "key": "lang",
+          "title": "Español",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Ces&sort=popularity"
+        },
+        {
+          "count": 154,
+          "value": "pt",
+          "key": "lang",
+          "title": "Português",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cpt&sort=popularity"
+        },
+        {
+          "count": 90,
+          "value": "ja",
+          "key": "lang",
+          "title": "日本語",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cja&sort=popularity"
+        },
+        {
+          "count": 51,
+          "value": "de",
+          "key": "lang",
+          "title": "Deutsch",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cde&sort=popularity"
+        },
+        {
+          "count": 49,
+          "value": "ar",
+          "key": "lang",
+          "title": "العربية",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Car&sort=popularity"
+        },
+        {
+          "count": 38,
+          "value": "fr",
+          "key": "lang",
+          "title": "Français",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cfr&sort=popularity"
+        },
+        {
+          "count": 33,
+          "value": "it",
+          "key": "lang",
+          "title": "Italiano",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cit&sort=popularity"
+        },
+        {
+          "count": 29,
+          "value": "zh",
+          "key": "lang",
+          "title": "中文",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Czh&sort=popularity"
+        },
+        {
+          "count": 26,
+          "value": "tr",
+          "key": "lang",
+          "title": "Türkçe",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Ctr&sort=popularity"
+        },
+        {
+          "count": 15,
+          "value": "ru",
+          "key": "lang",
+          "title": "Русский",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cru&sort=popularity"
+        },
+        {
+          "count": 13,
+          "value": "ko",
+          "key": "lang",
+          "title": "한국어",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cko&sort=popularity"
+        },
+        {
+          "count": 9,
+          "value": "nl",
+          "key": "lang",
+          "title": "Nederlands",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cnl&sort=popularity"
+        },
+        {
+          "count": 6,
+          "value": "ur",
+          "key": "lang",
+          "title": "اردو",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cur&sort=popularity"
+        },
+        {
+          "count": 5,
+          "value": "hi",
+          "key": "lang",
+          "title": "हिन्दी",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Chi&sort=popularity"
+        },
+        {
+          "count": 4,
+          "value": "pl",
+          "key": "lang",
+          "title": "Polski",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cpl&sort=popularity"
+        },
+        {
+          "count": 4,
+          "value": "th",
+          "key": "lang",
+          "title": "ภาษาไทย",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cth&sort=popularity"
+        },
+        {
+          "count": 3,
+          "value": "he",
+          "key": "lang",
+          "title": "‏עברית‏",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Che&sort=popularity"
+        },
+        {
+          "count": 2,
+          "value": "bn",
+          "key": "lang",
+          "title": "Bangla",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cbn&sort=popularity"
+        },
+        {
+          "count": 1,
+          "value": "bg",
+          "key": "lang",
+          "title": "Български",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cbg&sort=popularity"
+        },
+        {
+          "count": 1,
+          "value": "hu",
+          "key": "lang",
+          "title": "Magyar",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Chu&sort=popularity"
+        },
+        {
+          "count": 1,
+          "value": "id",
+          "key": "lang",
+          "title": "Bahasa Indonesia",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cid&sort=popularity"
+        },
+        {
+          "count": 1,
+          "value": "ro",
+          "key": "lang",
+          "title": "Română",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cro&sort=popularity"
+        },
+        {
+          "count": 1,
+          "value": "sv",
+          "key": "lang",
+          "title": "Svenska",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Csv&sort=popularity"
+        },
+        {
+          "count": 1,
+          "value": "te",
+          "key": "lang",
+          "title": "Telugu",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en%7Cte&sort=popularity"
+        }
+      ]
+    },
+    {
+      "key": "features",
+      "title": "Features",
+      "options": [
+        {
+          "value": 1,
+          "count": 218,
+          "is_feature": true,
+          "key": "closedCaptionAvailable",
+          "title": "Closed Captions",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&closedCaptionAvailable=1"
+        },
+        {
+          "value": 1,
+          "count": 581,
+          "is_feature": true,
+          "key": "quizAvailable",
+          "title": "Quizzes",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&quizAvailable=1"
+        },
+        {
+          "value": 1,
+          "count": 5,
+          "is_feature": true,
+          "key": "codingExerciseAvailable",
+          "title": "Coding Exercises",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&codingExerciseAvailable=1"
+        }
+      ]
+    },
+    {
+      "open": true,
+      "key": "price",
+      "title": "Price",
+      "options": [
+        {
+          "count": 2408,
+          "value": "price-paid",
+          "key": "price",
+          "title": "Paid",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&price=price-paid"
+        },
+        {
+          "count": 211,
+          "value": "price-free",
+          "key": "price",
+          "title": "Free",
+          "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&price=price-free"
+        }
+      ]
+    }
+  ],
+  "course_labels": null,
+  "pagination": {
+    "next": {
+      "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=2",
+      "selected": false,
+      "label": "Next"
+    },
+    "total_page": 219,
+    "pages": [
+      {
+        "label": 1,
+        "selected": true,
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=1"
+      },
+      {
+        "label": 2,
+        "selected": false,
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=2"
+      },
+      {
+        "label": 3,
+        "selected": false,
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=3"
+      },
+      {
+        "label": 4,
+        "selected": false,
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=4"
+      },
+      {
+        "label": 5,
+        "selected": false,
+        "url": "/api-2.0/channels/1626/courses?is_angular_app=true&is_topic_filters_enabled=false&lang=en&sort=popularity&p=5"
+      }
+    ],
+    "current_page": 1
+  },
+  "results": [
+    {
+      "_class": "course",
+      "id": 271228,
+      "title": "WordPress Theme Development with Bootstrap",
+      "url": "/bootstrap-to-wordpress/",
+      "is_paid": true,
+      "price": "$175",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/422607_77b6_9.jpg",
+          "_class": "user",
+          "id": 422607,
+          "name": "Brad",
+          "display_name": "Brad Hussey",
+          "job_title": "Freelancing Web Designer @ Code College",
+          "title": "Brad Hussey",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/422607_77b6_9.jpg",
+          "url": "/user/bradhussey/"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/13289904_5c6e_2.jpg",
+          "_class": "user",
+          "id": 13289904,
+          "name": "Code",
+          "display_name": "Code College",
+          "job_title": "The Best Coding Courses on the Web",
+          "title": "Code College",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/13289904_5c6e_2.jpg",
+          "url": "/user/codecollege/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/271228_ce5b_8.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/271228_ce5b_8.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/271228_ce5b_8.jpg",
+      "published_title": "bootstrap-to-wordpress",
+      "headline": "Learn how to confidently develop custom & profitable Responsive WordPress Themes and Websites with no prior experience.",
+      "num_subscribers": 27363,
+      "discount": null,
+      "avg_rating_recent": 4.596441947565543,
+      "num_reviews": 3895,
+      "is_wishlisted": false,
+      "num_published_lectures": 83,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/271228_ce5b_8.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English"
+      ],
+      "instructional_level": "Intermediate Level",
+      "content_info": "12 hours",
+      "published_time": "2015-01-05T21:19:57Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/bootstrap/",
+        "context_info": {
+          "title": "Web Design",
+          "url": "/courses/design/web-design/"
+        },
+        "topic_name": "Bootstrap",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0684764,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 1048360,
+      "title": "Landing Page Design & Web Design Fundamentals 2017",
+      "url": "/landing-page-design-best-practices/",
+      "is_paid": true,
+      "price": "$195",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/17682090_f71d_3.jpg",
+          "_class": "user",
+          "id": 17682090,
+          "name": "Isaac",
+          "display_name": "Isaac Rudansky",
+          "job_title": "Certified Google AdWords Pro |Co-founder of AdVenture Media",
+          "title": "Isaac Rudansky",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/17682090_f71d_3.jpg",
+          "url": "/user/isaac-rudansky/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1048360_8a17.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1048360_8a17.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1048360_8a17.jpg",
+      "published_title": "landing-page-design-best-practices",
+      "headline": "Triple Your Conversion Rate With These Landing Page Design Principles & Build A Landing Page From Scratch With No Code",
+      "num_subscribers": 8539,
+      "discount": null,
+      "avg_rating_recent": 4.719512195121951,
+      "num_reviews": 1129,
+      "is_wishlisted": false,
+      "num_published_lectures": 50,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1048360_8a17.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English [Auto-generated]"
+      ],
+      "instructional_level": "All Levels",
+      "content_info": "10 hours",
+      "published_time": "2016-12-22T23:58:26Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/landing-page-optimization/",
+        "context_info": {
+          "title": "Web Design",
+          "url": "/courses/design/web-design/"
+        },
+        "topic_name": "Landing Page Optimization",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0677315,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 58207,
+      "title": "User Experience Design Fundamentals",
+      "url": "/user-experience-design-fundamentals/",
+      "is_paid": true,
+      "price": "$95",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/402489_0bc6_4.jpg",
+          "_class": "user",
+          "id": 402489,
+          "name": "Joe",
+          "display_name": "Joe Natoli",
+          "job_title": "26-year UX Industry Veteran; Consultant, Author & Speaker",
+          "title": "Joe Natoli",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/402489_0bc6_4.jpg",
+          "url": "/user/joenatoli/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/58207_2ec2_6.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/58207_2ec2_6.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/58207_2ec2_6.jpg",
+      "published_title": "user-experience-design-fundamentals",
+      "headline": "Design Web Sites and Mobile Apps that Your Users Love and Return to Again and Again with UX Expert Joe Natoli.",
+      "num_subscribers": 45767,
+      "discount": null,
+      "avg_rating_recent": 4.362017804154303,
+      "num_reviews": 2432,
+      "is_wishlisted": false,
+      "num_published_lectures": 54,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/58207_2ec2_6.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English [Auto-generated]"
+      ],
+      "instructional_level": "All Levels",
+      "content_info": "10 hours",
+      "published_time": "2013-06-17T13:12:30Z",
+      "bestseller_badge_content": null,
+      "predictive_score": null,
+      "relevancy_score": 1.0668651,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 381850,
+      "title": "Mobile App Design In Sketch 3: UX and UI Design From Scratch",
+      "url": "/the-complete-design-course/",
+      "is_paid": true,
+      "price": "$30",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/4387876_78bc.jpg",
+          "_class": "user",
+          "id": 4387876,
+          "name": "Rob",
+          "display_name": "Rob Percival",
+          "job_title": "Web Developer And Teacher",
+          "title": "Rob Percival",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/4387876_78bc.jpg",
+          "url": "/user/robpercival/"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/8800948_7aa9_2.jpg",
+          "_class": "user",
+          "id": 8800948,
+          "name": "Andrew",
+          "display_name": "Andrew Eddy",
+          "job_title": "Graphic Designer, Entrepreneur,  & Instructor ",
+          "title": "Andrew Eddy",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/8800948_7aa9_2.jpg",
+          "url": "/user/andreweddy3/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/381850_d819_10.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/381850_d819_10.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/381850_d819_10.jpg",
+      "published_title": "the-complete-design-course",
+      "headline": "Design Mobile Apps from scratch using Sketch 3. Master Sketch 3, UX methodology, icon design, and user interface design.",
+      "num_subscribers": 23165,
+      "discount": null,
+      "avg_rating_recent": 4.438095238095238,
+      "num_reviews": 2049,
+      "is_wishlisted": false,
+      "num_published_lectures": 148,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/381850_d819_10.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "16 hours",
+      "published_time": "2015-02-09T19:07:06Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/mobile-app-design/",
+        "context_info": {
+          "title": "Design Tools",
+          "url": "/courses/design/design-tools/"
+        },
+        "topic_name": "Mobile App Design",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0664753,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 438522,
+      "title": "Learn 3D Modelling - The Complete Blender Creator Course",
+      "url": "/blendertutorial/",
+      "is_paid": true,
+      "price": "$195",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/4355282_676b.jpg",
+          "_class": "user",
+          "id": 4355282,
+          "name": "Ben",
+          "display_name": "Ben Tristem",
+          "job_title": "Best-selling Instructor, Game Developer, Online Entrepreneur",
+          "title": "Ben Tristem",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/4355282_676b.jpg",
+          "url": "/user/bentristem/"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/4381966_be1b_2.jpg",
+          "_class": "user",
+          "id": 4381966,
+          "name": "Michael",
+          "display_name": "Michael Bridges",
+          "job_title": "Technology Teacher",
+          "title": "Michael Bridges",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/4381966_be1b_2.jpg",
+          "url": "/user/michaelbridges3/"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/33027212_4271_3.jpg",
+          "_class": "user",
+          "id": 33027212,
+          "name": "GameDev.tv",
+          "display_name": "GameDev.tv by Ben Tristem",
+          "job_title": "Learn to Make and Sell Games",
+          "title": "GameDev.tv by Ben Tristem",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/33027212_4271_3.jpg",
+          "url": "/user/gamedevtv/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/438522_500f_3.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/438522_500f_3.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/438522_500f_3.jpg",
+      "published_title": "blendertutorial",
+      "headline": "Use Blender to create beautiful 3D models for video games, 3D printing, house design etc. No prior knowledge required.",
+      "num_subscribers": 66809,
+      "discount": null,
+      "avg_rating_recent": 4.687940323249068,
+      "num_reviews": 10148,
+      "is_wishlisted": false,
+      "num_published_lectures": 278,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/438522_500f_3.jpg",
+      "locale": {
+        "english_title": "English (UK)",
+        "_class": "locale",
+        "title": "English (UK)",
+        "locale": "en_GB"
+      },
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "48.5 hours",
+      "published_time": "2015-05-05T23:09:24Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/3d-modeling/",
+        "context_info": {
+          "title": "3D & Animation",
+          "url": "/courses/design/3d-and-animation/"
+        },
+        "topic_name": "3D Modeling",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.06632,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 749542,
+      "title": "Graphic Design Bootcamp",
+      "url": "/graphic-design-for-beginners/",
+      "is_paid": true,
+      "price": "$125",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/10952512_1609_3.jpg",
+          "_class": "user",
+          "id": 10952512,
+          "name": "Derrick",
+          "display_name": "Derrick Mitchell",
+          "job_title": "Creative Director; College Professor",
+          "title": "Derrick Mitchell",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/10952512_1609_3.jpg",
+          "url": "/user/derrickmitchell3/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/749542_4762_3.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/749542_4762_3.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/749542_4762_3.jpg",
+      "published_title": "graphic-design-for-beginners",
+      "headline": "Learn the essentials of Photoshop, Illustrator, and InDesign (updated 3.31.2017)",
+      "num_subscribers": 16371,
+      "discount": null,
+      "avg_rating_recent": 4.626666666666667,
+      "num_reviews": 1912,
+      "is_wishlisted": false,
+      "num_published_lectures": 65,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/749542_4762_3.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English"
+      ],
+      "instructional_level": "Beginner Level",
+      "content_info": "8 hours",
+      "published_time": "2016-05-13T00:03:03Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/graphic-design/",
+        "context_info": {
+          "title": "Graphic Design",
+          "url": "/courses/design/graphic-design/"
+        },
+        "topic_name": "Graphic Design",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0661687,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 1239574,
+      "title": "Photorealistic Digital Painting From Beginner To Advanced.",
+      "url": "/photorealistic-digital-painting-from-beginner-to-advanced/",
+      "is_paid": true,
+      "price": "$110",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/21756796_4490_2.jpg",
+          "_class": "user",
+          "id": 21756796,
+          "name": "Austin",
+          "display_name": "Austin Batchelor",
+          "job_title": "Concept Artist and Illustrator",
+          "title": "Austin Batchelor",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/21756796_4490_2.jpg",
+          "url": "/user/austin-batchelor/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1239574_6e76.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1239574_6e76.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1239574_6e76.jpg",
+      "published_title": "photorealistic-digital-painting-from-beginner-to-advanced",
+      "headline": "Bring your imagination to life!",
+      "num_subscribers": 9104,
+      "discount": null,
+      "avg_rating_recent": 4.525,
+      "num_reviews": 140,
+      "is_wishlisted": false,
+      "num_published_lectures": 30,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1239574_6e76.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "5.5 hours",
+      "published_time": "2017-06-16T17:37:14Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/digital-painting/",
+        "context_info": {
+          "title": "Game Design",
+          "url": "/courses/design/game-design/"
+        },
+        "topic_name": "Digital Painting",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0660567,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 957940,
+      "title": "Learn Photoshop, Web Design & Profitable Freelancing 2017",
+      "url": "/learn-photoshop-web-design-profitable-freelancing-2017/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/342181_8b81_6.jpg",
+          "_class": "user",
+          "id": 342181,
+          "name": "Cristian",
+          "display_name": "Cristian Doru Barin",
+          "job_title": "Made over $50,000 by working in Photoshop part time!",
+          "title": "Cristian Doru Barin",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/342181_8b81_6.jpg",
+          "url": "/user/barindoru/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/957940_4115_3.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/957940_4115_3.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/957940_4115_3.jpg",
+      "published_title": "learn-photoshop-web-design-profitable-freelancing-2017",
+      "headline": "Learn Photoshop and use it to create amazing website designs and create a high, stable income. No coding needed!",
+      "num_subscribers": 7351,
+      "discount": null,
+      "avg_rating_recent": 4.5986666666666665,
+      "num_reviews": 805,
+      "is_wishlisted": false,
+      "num_published_lectures": 204,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/957940_4115_3.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "20.5 hours",
+      "published_time": "2016-11-30T17:57:01Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/photoshop/",
+        "context_info": {
+          "title": "Web Design",
+          "url": "/courses/design/web-design/"
+        },
+        "topic_name": "Photoshop",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0658951,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 1046722,
+      "title": "Ultimate Photoshop Training: From Beginner to Pro",
+      "url": "/ultimate-photoshop-training-from-beginner-to-pro/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/342181_8b81_6.jpg",
+          "_class": "user",
+          "id": 342181,
+          "name": "Cristian",
+          "display_name": "Cristian Doru Barin",
+          "job_title": "Made over $50,000 by working in Photoshop part time!",
+          "title": "Cristian Doru Barin",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/342181_8b81_6.jpg",
+          "url": "/user/barindoru/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1046722_cbd7_2.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1046722_cbd7_2.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1046722_cbd7_2.jpg",
+      "published_title": "ultimate-photoshop-training-from-beginner-to-pro",
+      "headline": "Master Photoshop without any previous knowledge with this easy-to-follow course",
+      "num_subscribers": 6119,
+      "discount": null,
+      "avg_rating_recent": 4.673027989821883,
+      "num_reviews": 559,
+      "is_wishlisted": false,
+      "num_published_lectures": 150,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1046722_cbd7_2.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English"
+      ],
+      "instructional_level": "Beginner Level",
+      "content_info": "11.5 hours",
+      "published_time": "2017-01-12T16:56:22Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/photoshop/",
+        "context_info": {
+          "title": "Graphic Design",
+          "url": "/courses/design/graphic-design/"
+        },
+        "topic_name": "Photoshop",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0657997,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 412738,
+      "title": "UX & Web Design Master Course: Strategy, Design, Development",
+      "url": "/ux-web-design-master-course-strategy-design-development/",
+      "is_paid": true,
+      "price": "$195",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/402489_0bc6_4.jpg",
+          "_class": "user",
+          "id": 402489,
+          "name": "Joe",
+          "display_name": "Joe Natoli",
+          "job_title": "26-year UX Industry Veteran; Consultant, Author & Speaker",
+          "title": "Joe Natoli",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/402489_0bc6_4.jpg",
+          "url": "/user/joenatoli/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/412738_4543.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/412738_4543.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/412738_4543.jpg",
+      "published_title": "ux-web-design-master-course-strategy-design-development",
+      "headline": "Learn how to apply User Experience (UX) principles to your website designs, code a variety of sites, and increase sales!",
+      "num_subscribers": 23535,
+      "discount": null,
+      "avg_rating_recent": 4.545454545454546,
+      "num_reviews": 2395,
+      "is_wishlisted": false,
+      "num_published_lectures": 187,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/412738_4543.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English"
+      ],
+      "instructional_level": "All Levels",
+      "content_info": "23.5 hours",
+      "published_time": "2015-08-25T17:34:54Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/user-experience-design/",
+        "context_info": {
+          "title": "User Experience",
+          "url": "/courses/design/user-experience/"
+        },
+        "topic_name": "User Experience Design",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0657318,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 874012,
+      "title": "The Ultimate Drawing Course - Beginner to Advanced",
+      "url": "/the-ultimate-drawing-course-beginner-to-advanced/",
+      "is_paid": true,
+      "price": "$150",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/17082766_0590_7.jpg",
+          "_class": "user",
+          "id": 17082766,
+          "name": "Jaysen",
+          "display_name": "Jaysen Batchelor",
+          "job_title": "Illustrator & Designer",
+          "title": "Jaysen Batchelor",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/17082766_0590_7.jpg",
+          "url": "/user/jaysen-batchelor/"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/32143518_ff3d.jpg",
+          "_class": "user",
+          "id": 32143518,
+          "name": "Quinton",
+          "display_name": "Quinton Batchelor",
+          "job_title": "",
+          "title": "Quinton Batchelor",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/32143518_ff3d.jpg",
+          "url": "/user/quinton-batchelor-2/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/874012_c7f2_3.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/874012_c7f2_3.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/874012_c7f2_3.jpg",
+      "published_title": "the-ultimate-drawing-course-beginner-to-advanced",
+      "headline": "Learn the #1 most important building block of all art",
+      "num_subscribers": 30664,
+      "discount": null,
+      "avg_rating_recent": 4.537528216704289,
+      "num_reviews": 2900,
+      "is_wishlisted": false,
+      "num_published_lectures": 62,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/874012_c7f2_3.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [
+        "English [Auto-generated]"
+      ],
+      "instructional_level": "Beginner Level",
+      "content_info": "11 hours",
+      "published_time": "2017-01-23T00:20:05Z",
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/drawing/",
+        "context_info": {
+          "title": "Graphic Design",
+          "url": "/courses/design/graphic-design/"
+        },
+        "topic_name": "Drawing",
+        "badge_text": "Bestselling"
+      },
+      "predictive_score": null,
+      "relevancy_score": 1.0657037,
+      "lecture_search_result": null,
+      "input_features": null
+    },
+    {
+      "_class": "course",
+      "id": 352132,
+      "title": "Master Web Design in Photoshop",
+      "url": "/master-web-design-in-photoshop/",
+      "is_paid": true,
+      "price": "$125",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/342181_8b81_6.jpg",
+          "_class": "user",
+          "id": 342181,
+          "name": "Cristian",
+          "display_name": "Cristian Doru Barin",
+          "job_title": "Made over $50,000 by working in Photoshop part time!",
+          "title": "Cristian Doru Barin",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/342181_8b81_6.jpg",
+          "url": "/user/barindoru/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/352132_74cf_2.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/352132_74cf_2.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/352132_74cf_2.jpg",
+      "published_title": "master-web-design-in-photoshop",
+      "headline": "Learn how to create stunning website designs in Photoshop",
+      "num_subscribers": 15571,
+      "discount": null,
+      "avg_rating_recent": 4.386861313868613,
+      "num_reviews": 1044,
+      "is_wishlisted": false,
+      "num_published_lectures": 93,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/352132_74cf_2.jpg",
+      "locale": {
+        "english_title": "English (US)",
+        "_class": "locale",
+        "title": "English (US)",
+        "locale": "en_US"
+      },
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "11 hours",
+      "published_time": "2014-12-21T15:39:30Z",
+      "bestseller_badge_content": null,
+      "predictive_score": null,
+      "relevancy_score": 1.0656742,
+      "lecture_search_result": null,
+      "input_features": null
+    }
+  ]
+}

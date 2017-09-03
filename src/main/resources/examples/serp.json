@@ -1,0 +1,1302 @@
+{
+  "aggregations": [
+    {
+      "title": "Level",
+      "open": true,
+      "options": [
+        {
+          "title": "All Levels",
+          "count": 286,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&instructionalLevel=all",
+          "key": "instructionalLevel",
+          "value": "all"
+        },
+        {
+          "title": "Beginner",
+          "count": 101,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&instructionalLevel=beginner",
+          "key": "instructionalLevel",
+          "value": "beginner"
+        },
+        {
+          "title": "Intermediate",
+          "count": 39,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&instructionalLevel=intermediate",
+          "key": "instructionalLevel",
+          "value": "intermediate"
+        },
+        {
+          "title": "Expert",
+          "count": 6,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&instructionalLevel=expert",
+          "key": "instructionalLevel",
+          "value": "expert"
+        }
+      ],
+      "key": "instructional_level"
+    },
+    {
+      "title": "Language",
+      "options": [
+        {
+          "title": "English",
+          "count": 352,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=en",
+          "key": "lang",
+          "value": "en"
+        },
+        {
+          "title": "Deutsch",
+          "count": 23,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=de",
+          "key": "lang",
+          "value": "de"
+        },
+        {
+          "title": "Español",
+          "count": 21,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=es",
+          "key": "lang",
+          "value": "es"
+        },
+        {
+          "title": "中文",
+          "count": 11,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=zh",
+          "key": "lang",
+          "value": "zh"
+        },
+        {
+          "title": "日本語",
+          "count": 9,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=ja",
+          "key": "lang",
+          "value": "ja"
+        },
+        {
+          "title": "Português",
+          "count": 6,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=pt",
+          "key": "lang",
+          "value": "pt"
+        },
+        {
+          "title": "Français",
+          "count": 4,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=fr",
+          "key": "lang",
+          "value": "fr"
+        },
+        {
+          "title": "Italiano",
+          "count": 4,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=it",
+          "key": "lang",
+          "value": "it"
+        },
+        {
+          "title": "한국어",
+          "count": 1,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=ko",
+          "key": "lang",
+          "value": "ko"
+        },
+        {
+          "title": "Polski",
+          "count": 1,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&lang=pl",
+          "key": "lang",
+          "value": "pl"
+        }
+      ],
+      "key": "language"
+    },
+    {
+      "title": "Features",
+      "options": [
+        {
+          "is_feature": true,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&closedCaptionAvailable=1",
+          "value": 1,
+          "title": "Closed Captions",
+          "count": 34,
+          "key": "closedCaptionAvailable"
+        },
+        {
+          "is_feature": true,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&quizAvailable=1",
+          "value": 1,
+          "title": "Quizzes",
+          "count": 108,
+          "key": "quizAvailable"
+        }
+      ],
+      "key": "features"
+    },
+    {
+      "title": "Price",
+      "open": true,
+      "options": [
+        {
+          "title": "Paid",
+          "count": 405,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&price=price-paid",
+          "key": "price",
+          "value": "price-paid"
+        },
+        {
+          "title": "Free",
+          "count": 27,
+          "url": "/api-2.0/search-courses/?q=SEO&src=ukw&price=price-free",
+          "key": "price",
+          "value": "price-free"
+        }
+      ],
+      "key": "price"
+    }
+  ],
+  "count": 432,
+  "courses": [
+    {
+      "_class": "course",
+      "id": 1316490,
+      "title": "Learn SEO (Search Engine Optimization) For Everyone To Learn",
+      "url": "/learn-seo-2017/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/32220990_dbb3_3.jpg",
+          "display_name": "BlackBrick ©️",
+          "_class": "user",
+          "title": "BlackBrick ©️",
+          "id": 32220990,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/32220990_dbb3_3.jpg",
+          "url": "/user/blackbrick-training/",
+          "job_title": "Join Over 10000 Happy Students | The Ultimate Online Courses",
+          "name": "BlackBrick"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1316490_e99a_2.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1316490_e99a_2.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1316490_e99a_2.jpg",
+      "published_title": "learn-seo-2017",
+      "headline": "Learn <strong>Search Engine Optimization</strong> From The Basics | Find The BEST Keywords | On Page & Off Site <strong>SEO</strong>! | Optimize It All!",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T07:29:17-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 190.0,
+          "price_string": "$190",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 1316490,
+          "type": "course"
+        },
+        "discount_percent_for_display": 95,
+        "list_price": {
+          "amount": 200.0,
+          "price_string": "$200",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.15625,
+      "avg_rating_recent": 4.15625,
+      "num_reviews": 16,
+      "num_published_lectures": 20,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1316490_e99a_2.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "1.5 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": true,
+      "predictive_score": 7830.129494315014,
+      "relevancy_score": 2150.9346,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 740562,
+      "title": "SEO 2017: Complete SEO Training + SEO for WordPress Websites",
+      "url": "/seo-get-to-number1-in-google-search/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/10515358_a306_5.jpg",
+          "display_name": "Arun Nagarathanam",
+          "_class": "user",
+          "title": "Arun Nagarathanam",
+          "id": 10515358,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/10515358_a306_5.jpg",
+          "url": "/user/54c4c63de3904/",
+          "job_title": "SEO, WordPress, E-Commerce, PowerPoint, Digital Art Expert",
+          "name": "Arun"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/16343900_5ef1_4.jpg",
+          "display_name": "Sharomena Aarthi",
+          "_class": "user",
+          "title": "Sharomena Aarthi",
+          "id": 16343900,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/16343900_5ef1_4.jpg",
+          "url": "/user/sharomena-aarthi/",
+          "job_title": "Asst. Professor at VCET",
+          "name": "Sharomena"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/740562_6eb8_5.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/740562_6eb8_5.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/740562_6eb8_5.jpg",
+      "published_title": "seo-get-to-number1-in-google-search",
+      "headline": "Rank 1 on Google: Technical <strong>SEO</strong>, 0.5s Pagespeed, UX <strong>SEO</strong>, -Ve <strong>SEO</strong>, Keyword Research <strong>SEO</strong>: WordPress <strong>SEO</strong> Training",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T09:26:10-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 190.0,
+          "price_string": "$190",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "discount_percent_for_display": 95,
+        "buyable": {
+          "id": 740562,
+          "type": "course"
+        },
+        "list_price": {
+          "amount": 200.0,
+          "price_string": "$200",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.47118,
+      "avg_rating_recent": 4.434859154929577,
+      "num_reviews": 902,
+      "num_published_lectures": 119,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/740562_6eb8_5.jpg",
+      "caption_languages": [
+        "English"
+      ],
+      "instructional_level": "All Levels",
+      "content_info": "9 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/wordpress/",
+        "context_info": {
+          "title": "Search Engine Optimization",
+          "url": "/courses/marketing/search-engine-optimization/"
+        },
+        "badge_text": "Best Seller",
+        "topic_name": "WordPress"
+      },
+      "is_recently_published": false,
+      "predictive_score": 7800.083912540322,
+      "relevancy_score": 2150.4453,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 521574,
+      "title": "Complete 2017 SEO Training With Top SEO Expert Peter Kent!",
+      "url": "/search-engine-optimization-for-beginners-seo-that-works/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/141986_172a_2.jpg",
+          "_class": "user",
+          "display_name": "Peter Kent",
+          "title": "Peter Kent",
+          "id": 141986,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/141986_172a_2.jpg",
+          "url": "/user/peterkent/",
+          "job_title": "Author, SEO & E-Commerce Consultant",
+          "name": "Peter"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/521574_1325_11.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/521574_1325_11.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/521574_1325_11.jpg",
+      "published_title": "search-engine-optimization-for-beginners-seo-that-works",
+      "headline": "Win The <strong>SEO</strong> Game & Dominate The <strong>Search Engines</strong> With the Author of Best-Selling <strong>Search Engine Optimization</strong> for Dummies.",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T10:16:35-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 190.0,
+          "price_string": "$190",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 521574,
+          "type": "course"
+        },
+        "discount_percent_for_display": 95,
+        "list_price": {
+          "amount": 200.0,
+          "price_string": "$200",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.56381,
+      "avg_rating_recent": 4.5358744394618835,
+      "num_reviews": 619,
+      "num_published_lectures": 158,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/521574_1325_11.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "8 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7583.429549804343,
+      "relevancy_score": 2149.588,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 1082818,
+      "title": "SEO Training Course 2017: Proven SEO & Link building Tactics",
+      "url": "/online-seo-training-course/",
+      "is_paid": true,
+      "price": "$175",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/16186310_ce44_7.jpg",
+          "_class": "user",
+          "display_name": "Habib Rehman",
+          "title": "Habib Rehman",
+          "id": 16186310,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/16186310_ce44_7.jpg",
+          "url": "/user/habib-rehman-2/",
+          "job_title": "SEO Instructor at Udemy",
+          "name": "Habib"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1082818_89c5_17.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1082818_89c5_17.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1082818_89c5_17.jpg",
+      "published_title": "online-seo-training-course",
+      "headline": "<strong>Search Engine Optimization</strong> for Newbies, Business Owner, Bloggers. To Get Rank #1 on Google Learn <strong>SEO</strong> that works in 2017.",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T10:01:31-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 165.0,
+          "price_string": "$165",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "discount_percent_for_display": 94,
+        "buyable": {
+          "id": 1082818,
+          "type": "course"
+        },
+        "list_price": {
+          "amount": 175.0,
+          "price_string": "$175",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.74747,
+      "avg_rating_recent": 4.747474747474747,
+      "num_reviews": 99,
+      "num_published_lectures": 116,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1082818_89c5_17.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "7 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/link-building/",
+        "context_info": {
+          "title": "Search Engine Optimization",
+          "url": "/courses/marketing/search-engine-optimization/"
+        },
+        "badge_text": "Best Seller",
+        "topic_name": "Link Building"
+      },
+      "is_recently_published": false,
+      "predictive_score": 7534.408066219696,
+      "relevancy_score": 2148.9072,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 365176,
+      "title": "SEO Training 2017 - How to Get to the Top of Google with SEO",
+      "url": "/seo-roadmap/",
+      "is_paid": true,
+      "price": "$100",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/1800590_e000_5.jpg",
+          "_class": "user",
+          "display_name": "Daragh Walsh",
+          "title": "Daragh Walsh",
+          "id": 1800590,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/1800590_e000_5.jpg",
+          "url": "/user/daraghmichaelw/",
+          "job_title": "Marketer & Instructor with 100,000+ Students",
+          "name": "Daragh"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/365176_1284_6.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/365176_1284_6.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/365176_1284_6.jpg",
+      "published_title": "seo-roadmap",
+      "headline": "<strong>SEO</strong> Training: Learn How to Create a Winning <strong>SEO</strong> Strategy with <strong>SEO</strong> Audit, Keyword Research, Technical <strong>SEO</strong> & Link Building",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T10:16:35-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 90.0,
+          "price_string": "$90",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 365176,
+          "type": "course"
+        },
+        "discount_percent_for_display": 90,
+        "list_price": {
+          "amount": 100.0,
+          "price_string": "$100",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.5023,
+      "avg_rating_recent": 4.417098445595855,
+      "num_reviews": 1087,
+      "num_published_lectures": 36,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/365176_1284_6.jpg",
+      "caption_languages": [
+        "English"
+      ],
+      "instructional_level": "All Levels",
+      "content_info": "2.5 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7449.738445343777,
+      "relevancy_score": 2149.4504,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 184636,
+      "title": "Marketing strategy to reach 1,000,000! SEO & social media",
+      "url": "/marketing-plan-strategy-become-a-great-marketer/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "_class": "user",
+          "id": 4116740,
+          "title": "Alex Genadinik",
+          "name": "Alex",
+          "display_name": "Alex Genadinik",
+          "job_title": "Love helping you succeed: 80,000 students & 100 courses",
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/4116740_b790.jpg",
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/4116740_b790.jpg",
+          "url": "/user/alexgenadinik/"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/184636_92a8_3.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/184636_92a8_3.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/184636_92a8_3.jpg",
+      "published_title": "marketing-plan-strategy-become-a-great-marketer",
+      "headline": "Cutting edge <strong>SEO</strong> & social media growth hacking strategies to reach 1,000,000 with this digital online marketing course",
+      "discount": {
+        "price": {
+          "amount": 10.0,
+          "currency": "USD",
+          "price_string": "$10",
+          "currency_symbol": "$"
+        },
+        "list_price": {
+          "amount": 200.0,
+          "currency": "USD",
+          "price_string": "$200",
+          "currency_symbol": "$"
+        },
+        "saving_price": {
+          "amount": 190.0,
+          "currency": "USD",
+          "price_string": "$190",
+          "currency_symbol": "$"
+        },
+        "discount_percent_for_display": 95,
+        "buyable": {
+          "id": 184636,
+          "type": "course"
+        },
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T12:28:30-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        }
+      },
+      "avg_rating": 4.51623,
+      "avg_rating_recent": 4.47,
+      "num_reviews": 462,
+      "num_published_lectures": 152,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/184636_92a8_3.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "13 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/marketing-strategy/",
+        "context_info": {
+          "title": "Growth Hacking",
+          "url": "/courses/marketing/growth-hacking/"
+        },
+        "badge_text": "Best Seller",
+        "topic_name": "Marketing Strategy"
+      },
+      "is_recently_published": false,
+      "predictive_score": 7407.480119192353,
+      "relevancy_score": 2148.0928,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 627504,
+      "title": "Amazon Kindle eBook Self-publishing Using SEO on KDP (KDSpy)",
+      "url": "/amazon-keyword-analysis-with-kindle-spy/",
+      "is_paid": true,
+      "price": "$20",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/5822248_f9ba.jpg",
+          "display_name": "Brian Jackson",
+          "_class": "user",
+          "title": "Brian Jackson",
+          "id": 5822248,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/5822248_f9ba.jpg",
+          "url": "/user/brianjackson13/",
+          "job_title": "Author/Publisher 32 Courses, 2800+ Reviews, 56,000+ Students",
+          "name": "Brian"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/627504_4f78_4.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/627504_4f78_4.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/627504_4f78_4.jpg",
+      "published_title": "amazon-keyword-analysis-with-kindle-spy",
+      "headline": "Kindle Spy (KDSpy): Amazon keyword research & analysis for KDP:  Self-publishing eBooks on KDP using <strong>SEO</strong>: Passive income",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T08:52:23-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "discount_percent_for_display": 50,
+        "buyable": {
+          "id": 627504,
+          "type": "course"
+        },
+        "list_price": {
+          "amount": 20.0,
+          "price_string": "$20",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.11258,
+      "avg_rating_recent": 4.340909090909091,
+      "num_reviews": 151,
+      "num_published_lectures": 10,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/627504_4f78_4.jpg",
+      "caption_languages": [],
+      "instructional_level": "Beginner Level",
+      "content_info": "1 hour",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7363.200530110268,
+      "relevancy_score": 2147.1953,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 1245848,
+      "title": "SEO 2017: Step-by-Step SEO Training to Maximize Your Traffic",
+      "url": "/seo-mastery/",
+      "is_paid": true,
+      "price": "$150",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/32897338_1157_5.jpg",
+          "display_name": "Jim Stanley",
+          "_class": "user",
+          "title": "Jim Stanley",
+          "id": 32897338,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/32897338_1157_5.jpg",
+          "url": "/user/jim-stanley/",
+          "job_title": "SEO Consultant & Instructor",
+          "name": "Jim"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1245848_782d_7.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1245848_782d_7.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1245848_782d_7.jpg",
+      "published_title": "seo-mastery",
+      "headline": "<strong>Search Engine Optimization</strong> Training for ALL sites! Expert Keyword Research, On-Page <strong>SEO</strong>, Technical <strong>SEO</strong> & Link Building!",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T07:29:17-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 140.0,
+          "price_string": "$140",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 1245848,
+          "type": "course"
+        },
+        "discount_percent_for_display": 93,
+        "list_price": {
+          "amount": 150.0,
+          "price_string": "$150",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.61628,
+      "avg_rating_recent": 4.616279069767442,
+      "num_reviews": 43,
+      "num_published_lectures": 29,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1245848_782d_7.jpg",
+      "caption_languages": [
+        "English [Auto-generated]"
+      ],
+      "instructional_level": "All Levels",
+      "content_info": "4 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7233.688093874617,
+      "relevancy_score": 2149.1519,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 338184,
+      "title": "Start and Run a Successful & Profitable Home SEO Business",
+      "url": "/start-a-home-seo-business-that-works-all-levels/",
+      "is_paid": true,
+      "price": "$200",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/2618424_1ca3_4.jpg",
+          "_class": "user",
+          "display_name": "Christine Maisel",
+          "title": "Christine Maisel",
+          "id": 2618424,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/2618424_1ca3_4.jpg",
+          "url": "/user/christine131/",
+          "job_title": "Helping Web Design & SEO Startups",
+          "name": "Christine"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/338184_f90d_2.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/338184_f90d_2.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/338184_f90d_2.jpg",
+      "published_title": "start-a-home-seo-business-that-works-all-levels",
+      "headline": "Step-by-step actionable guide to starting your own home based <strong>SEO</strong> business regardless of <strong>SEO</strong> experience",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T07:29:17-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 190.0,
+          "price_string": "$190",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 338184,
+          "type": "course"
+        },
+        "discount_percent_for_display": 95,
+        "list_price": {
+          "amount": 200.0,
+          "price_string": "$200",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.55564,
+      "avg_rating_recent": 4.4743589743589745,
+      "num_reviews": 656,
+      "num_published_lectures": 55,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/338184_f90d_2.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "3.5 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7232.423339878134,
+      "relevancy_score": 2148.1504,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 1223188,
+      "title": "Learn Advanced SEO From Scratch,Complete SEO Training Course",
+      "url": "/learn-advanced-seo-from-scratch/",
+      "is_paid": true,
+      "price": "$90",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/185693_64e9_5.jpg",
+          "display_name": "Debajyoti Banerjee",
+          "_class": "user",
+          "title": "Debajyoti Banerjee",
+          "id": 185693,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/185693_64e9_5.jpg",
+          "url": "/user/debajyotibanerjee/",
+          "job_title": "Founder and CEO at Seven Boats Info-System Pvt. Ltd.",
+          "name": "Debajyoti"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1223188_6039.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1223188_6039.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1223188_6039.jpg",
+      "published_title": "learn-advanced-seo-from-scratch",
+      "headline": "Most effective <strong>SEO</strong> techniques. On-page <strong>SEO</strong>, Off-Page <strong>SEO</strong>, Local <strong>SEO</strong>, Ecommerce <strong>SEO</strong>, Google WMT & Wordpress <strong>SEO</strong> Training",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T07:29:17-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 80.0,
+          "price_string": "$80",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 1223188,
+          "type": "course"
+        },
+        "discount_percent_for_display": 89,
+        "list_price": {
+          "amount": 90.0,
+          "price_string": "$90",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.75,
+      "avg_rating_recent": 4.75,
+      "num_reviews": 12,
+      "num_published_lectures": 61,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1223188_6039.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "9.5 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7195.567880102862,
+      "relevancy_score": 2149.5576,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 1196252,
+      "title": "WordPress SEO 2017 - An Introductory Guide to WordPress SEO",
+      "url": "/wordpress-seo-2017-the-ultimate-wordpress-seo-guide/",
+      "is_paid": true,
+      "price": "$75",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/5258384_0c1a.jpg",
+          "display_name": "Alexander Oni",
+          "_class": "user",
+          "title": "Alexander Oni",
+          "id": 5258384,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/5258384_0c1a.jpg",
+          "url": "/user/alexanderoni/",
+          "job_title": "Web & WordPress Developer, Cyber-security Expert",
+          "name": "Alexander"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/1196252_572c_3.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/1196252_572c_3.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/1196252_572c_3.jpg",
+      "published_title": "wordpress-seo-2017-the-ultimate-wordpress-seo-guide",
+      "headline": "Learn how to optimize your WordPress website and content to rank highly in Google and other major <strong>search engines</strong>",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T07:29:17-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 65.0,
+          "price_string": "$65",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 1196252,
+          "type": "course"
+        },
+        "discount_percent_for_display": 87,
+        "list_price": {
+          "amount": 75.0,
+          "price_string": "$75",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.86842,
+      "avg_rating_recent": 4.863636363636363,
+      "num_reviews": 19,
+      "num_published_lectures": 66,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/1196252_572c_3.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "5 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": null,
+      "is_recently_published": false,
+      "predictive_score": 7127.956988913697,
+      "relevancy_score": 2149.7026,
+      "input_features": null,
+      "lecture_search_result": null
+    },
+    {
+      "_class": "course",
+      "id": 934032,
+      "title": "YouTube SEO: How to Rank #1 on YouTube",
+      "url": "/youtubemaster/",
+      "is_paid": true,
+      "price": "$195",
+      "visible_instructors": [
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/801404_1ceb_13.jpg",
+          "_class": "user",
+          "display_name": "Diego Davila",
+          "title": "Diego Davila",
+          "id": 801404,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/801404_1ceb_13.jpg",
+          "url": "/user/diego-davila/",
+          "job_title": "Entrepreneur and Social Media Innovator",
+          "name": "Diego"
+        },
+        {
+          "image_50x50": "https://udemy-images.udemy.com/user/50x50/23102868_9935_4.jpg",
+          "_class": "user",
+          "display_name": "Internet Revolution",
+          "title": "Internet Revolution",
+          "id": 23102868,
+          "image_100x100": "https://udemy-images.udemy.com/user/100x100/23102868_9935_4.jpg",
+          "url": "/user/internet-revolution/",
+          "job_title": "Your Online Academy",
+          "name": "Internet"
+        }
+      ],
+      "image_125_H": "https://udemy-images.udemy.com/course/125_H/934032_2297.jpg",
+      "image_240x135": "https://udemy-images.udemy.com/course/240x135/934032_2297.jpg",
+      "is_practice_test_course": false,
+      "image_480x270": "https://udemy-images.udemy.com/course/480x270/934032_2297.jpg",
+      "published_title": "youtubemaster",
+      "headline": "Proven Step by Step Strategy, That You Can Implement Right Now, to Rank Your Videos in the First Page of YouTube <strong>SEO</strong>",
+      "discount": {
+        "campaign": {
+          "code": "F6O7SG717DEAL10",
+          "end_time": "2017-09-02T10:01:31-07:00",
+          "is_instructor_created": false,
+          "is_public": true,
+          "start_time": "2017-09-01T07:00:00Z",
+          "campaign_type": "deal",
+          "uses_remaining": -1,
+          "maximum_uses": -1
+        },
+        "saving_price": {
+          "amount": 185.0,
+          "price_string": "$185",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "rate": {
+          "type": "fixed",
+          "value": 10
+        },
+        "price": {
+          "amount": 10.0,
+          "price_string": "$10",
+          "currency_symbol": "$",
+          "currency": "USD"
+        },
+        "buyable": {
+          "id": 934032,
+          "type": "course"
+        },
+        "discount_percent_for_display": 95,
+        "list_price": {
+          "amount": 195.0,
+          "price_string": "$195",
+          "currency_symbol": "$",
+          "currency": "USD"
+        }
+      },
+      "avg_rating": 4.51276,
+      "avg_rating_recent": 4.663043478260869,
+      "num_reviews": 196,
+      "num_published_lectures": 34,
+      "num_published_practice_tests": null,
+      "image_304x171": "https://udemy-images.udemy.com/course/304x171/934032_2297.jpg",
+      "caption_languages": [],
+      "instructional_level": "All Levels",
+      "content_info": "2.5 hours",
+      "content_length_practice_test_questions": null,
+      "bestseller_badge_content": {
+        "bestseller_badge_link": "category",
+        "topic_url": "/topic/seo/",
+        "context_info": {
+          "title": "Digital Marketing",
+          "url": "/courses/marketing/digital-marketing/"
+        },
+        "badge_text": "Best Seller",
+        "topic_name": "SEO"
+      },
+      "is_recently_published": false,
+      "predictive_score": 7112.875081999119,
+      "relevancy_score": 2147.9324,
+      "input_features": null,
+      "lecture_search_result": null
+    }
+  ],
+  "paid_alternative": null,
+  "pagination": {
+    "next": {
+      "label": "Next",
+      "url": "/api-2.0/search-courses/?q=SEO&src=ukw&p=2",
+      "selected": false
+    },
+    "pages": [
+      {
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&p=1",
+        "label": 1,
+        "selected": true
+      },
+      {
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&p=2",
+        "label": 2,
+        "selected": false
+      },
+      {
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&p=3",
+        "label": 3,
+        "selected": false
+      },
+      {
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&p=4",
+        "label": 4,
+        "selected": false
+      },
+      {
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&p=5",
+        "label": 5,
+        "selected": false
+      }
+    ],
+    "current_page": 1,
+    "total_page": 36
+  },
+  "suggestion": {
+    "phrase": null
+  },
+  "sort_options": {
+    "current_sort_option": {
+      "label": "Most Relevant",
+      "url": "/api-2.0/search-courses/?q=SEO&src=ukw&sort=relevance",
+      "key": "relevance"
+    },
+    "options": [
+      {
+        "label": "Most Reviewed",
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&sort=most-reviewed",
+        "key": "most-reviewed"
+      },
+      {
+        "label": "Highest Rated",
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&sort=highest-rated",
+        "key": "highest-rated"
+      },
+      {
+        "label": "Newest",
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&sort=newest",
+        "key": "newest"
+      },
+      {
+        "label": "Price: Low to High",
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&sort=price-low-to-high",
+        "key": "price-low-to-high"
+      },
+      {
+        "label": "Price: High to Low",
+        "url": "/api-2.0/search-courses/?q=SEO&src=ukw&sort=price-high-to-low",
+        "key": "price-high-to-low"
+      }
+    ]
+  },
+  "promotion": {
+    "promotion_id": "F6O7SG717DEAL10",
+    "has_course_filter": false,
+    "is_promotion_filter_active": false
+  },
+  "discovery_unit": null,
+  "analyzed_query": null,
+  "query": null,
+  "debug": null,
+  "course_labels": null,
+  "related_searches": null,
+  "search_log": {
+    "id": 24,
+    "phrase": "seo"
+  },
+  "application_areas": null,
+  "related_searches_position": "disabled",
+  "search_quickview_variant": "disabled",
+  "spell_corrected_search_query": null
+}
