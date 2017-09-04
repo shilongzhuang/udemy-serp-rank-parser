@@ -1,6 +1,7 @@
 package util;
 
 import core.UdemyCrawlerManager;
+import core.UdemyParserManager;
 import org.apache.http.client.utils.URIBuilder;
 import org.junit.Before;
 import org.junit.Test;
@@ -74,4 +75,13 @@ public class URLTest {
             System.out.println(keyword);
         }
     }
+
+    @Test
+    public void test06() {
+        Set<Integer> set = new UdemyParserManager().getCourseIds("seo");
+
+        System.out.println(set.size());
+
+}
+
 }

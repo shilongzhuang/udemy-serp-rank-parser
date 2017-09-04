@@ -11,6 +11,7 @@ import org.json.JSONObject;
 import util.MyDateUtil;
 
 import java.io.File;
+import java.io.FileFilter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -137,7 +138,7 @@ public class UdemyParserManager {
         courseDetail.setInstructorJobTitle(primaryInstructor.getString("job_title"));
         courseDetail.setInstructorUrl(primaryInstructor.getString("url"));
 
-        if(obj.isNull("primary_category")) {
+        if (obj.isNull("primary_category")) {
             courseDetail.setCategory(null);
             courseDetail.setCategoryId(-1);
         } else {
@@ -146,7 +147,7 @@ public class UdemyParserManager {
             courseDetail.setCategoryId(category.getInt("id"));
         }
 
-        if(obj.isNull("primary_subcategory")) {
+        if (obj.isNull("primary_subcategory")) {
             courseDetail.setCategory(null);
             courseDetail.setCategoryId(-1);
         } else {
@@ -213,11 +214,35 @@ public class UdemyParserManager {
         return searchResultList;
     }
 
+    public Set<Integer> getCourseIds(final String keyword) {
+        Set<Integer> courseIdList = new HashSet<Integer>();
+        File[] files = new File(classLoader.getResource(data_dir_serp).getFile()).listFiles(new FileFilter() {
+            public boolean accept(File pathname) {
+                return pathname.getName().startsWith(keyword);
+            }
+        });
+
+        if(files!=null) {
+            for (File file : files) {
+                // the object key is courses
+                JSONArray jsonArray = this.getJsonResults(data_dir_serp, file.getName(), "courses");
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    SearchResult searchResult = this.getSearchResult(jsonObject);
+                    courseIdList.add(searchResult.getCourseId());
+                }
+            }
+        }
+
+        return courseIdList;
+    }
+
+
     public Set<Integer> getCourseIds() {
         List<SearchResult> searchResultList = this.getSearchResults();
         Set<Integer> courseIdList = new HashSet<Integer>();
         //duplication
-        for(SearchResult searchResult: searchResultList) {
+        for (SearchResult searchResult : searchResultList) {
             courseIdList.add(searchResult.getCourseId());
         }
         return courseIdList;
