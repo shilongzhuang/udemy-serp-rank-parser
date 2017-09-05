@@ -90,7 +90,7 @@ public class UdemyRunService {
                 // write the json to local
                 ucm.writeJsonFileToLocalForCourseDetail(fileName, jsonContent);
 
-                Thread.sleep(1000);
+                Thread.sleep(10000);
 
             } catch (URISyntaxException e) {
                 e.printStackTrace();
